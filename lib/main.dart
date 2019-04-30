@@ -38,7 +38,7 @@ final _bloc = CounterBloc();
       body: Center(
         child: StreamBuilder(
           stream: _bloc.counter,
-          initialData: 0,
+          // initialData: 0,
           builder: (BuildContext context, AsyncSnapshot<int> snapshot){
             return Column(
               mainAxisAlignment: MainAxisAlignment.center,
